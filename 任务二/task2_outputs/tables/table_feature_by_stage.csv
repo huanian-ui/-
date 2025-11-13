@@ -1,0 +1,6 @@
+﻿,temp_mean_w0,temp_mean_w0,rh_mean_w0,rh_mean_w0,vpd_mean_w0,vpd_mean_w0,precip_sum_w0,precip_sum_w0,ghi_mean_w0,ghi_mean_w0,wind_spd_mean_w0,wind_spd_mean_w0,high_rh_hours_w0,high_rh_hours_w0,high_temp_hours_w0,high_temp_hours_w0
+,mean,std,mean,std,mean,std,mean,std,mean,std,mean,std,mean,std,mean,std
+stage,,,,,,,,,,,,,,,,
+0,28.474,0.895,54.57,11.048,1.76,0.398,0.579,2.166,761.455,105.041,3.127,0.923,0.0,0.0,1.171,3.563
+1,28.21,0.788,51.185,9.631,1.863,0.34,0.708,1.824,817.818,68.973,3.252,1.22,0.0,0.0,0.069,0.905
+2,29.267,0.537,58.724,9.297,1.672,0.34,2.734,4.264,810.572,104.402,3.595,0.925,0.0,0.0,2.618,4.962
