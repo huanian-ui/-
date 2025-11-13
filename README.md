@@ -1,4 +1,4 @@
-Temporal Evolution Recognition and Prediction of Pomegranate Diseases Based on Self-Supervised Learning and Cross-Modal Attention
+# Temporal Evolution Recognition and Prediction of Pomegranate Diseases Based on Self-Supervised Learning and Cross-Modal Attention
 本文面向石榴果实病害的智能识别与预测需求，基于连续采集的果实时序图像与园区气象观测数据，构建兼顾病害视觉识别、气象关联分析、阶段预测及浅层机械损伤检测的多模态综合方法。
 针对任务一：病害阶段识别，本研究提出融合多策略自监督预训练SimCLR、BYOL与ConvNeXt V2–Swin Transformer混合主干的SSF-Net模型，通过卷积与Transformer协同表征局部纹理和长程依赖，并在微调阶段引入气象特征实现早期多模态交互，实现健康期、初发期与发病期的自动划分。实验表明，模型在测试集上的准确率、F1 值和 Kappa 系数均达到 1.000，显著优于ResNet-50与ViT等基线网络，验证了方法在细粒度病害识别上的高精度与强大性能，最终使用SSF-Net模型计算相关结果。
 针对任务二：在病害–气象关系建模上，本研究利用Spearman相关分析、有序Logit回归与LightGBM模型，对温度、湿度、太阳辐射等关键气象因子进行多尺度定量分析。结果表明，病害进展与高温、高湿（低 VPD）、降水增强显著正相关，且前1–2周气象条件存在明显滞后效应；LightGBM 模型准确率达 0.918，特征重要性分析显示温度、露点温度和蒸汽压差是驱动病害演化的主要环境因子。
